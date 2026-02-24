@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  color: white;
+}
+
+main {
+  width: 1439px;
+}
+main section.first {
+  height: 650px;
+  background-image: url(./images/Bitmap\(1\).png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+main section.first div.text {
+  width: 387px;
+  height: 406px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-left: 112px;
+}
+main section.first div.text h1 {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+main section.first div.text h2 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 4.17px;
+}
+main section.first div.text div.date {
+  display: flex;
+  gap: 9px;
+  margin-top: -8px;
+}
+main section.first div.text div.date p.date {
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.75;
+}
+main section.first div.text div.date p.name {
+  font-size: 13px;
+  font-weight: 400;
+}
+main section.first div.text p.text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 60%;
+}
+main section.first div.text div.arrow {
+  display: flex;
+  gap: 16px;
+}
+main section.first div.text div.arrow p {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+main section.first:hover {
+  background-image: url(./images/Bitmap\(2\).png);
+}
+main section.second div.card {
+  width: 360px;
+  position: relative;
+}
+main section.second div.card div.card_text {
+  height: 170px;
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  margin: 0 40px;
+}
+main section.second div.card div.card_text p {
+  font-size: 13px;
+  font-weight: 400;
+}
+main section.second div.card div.card_text h3 {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 4px 0;
+}
+main section.second div.card div.card_text div.line {
+  width: 280px;
+  border: 1px solid;
+  border-color: rgba(255, 255, 255, 0.25);
+  margin: 20px 0 16px;
+}
+main section.second div.card div.card_text div.card_arrow {
+  display: flex;
+  gap: 146px;
+}
+main section.second div.card div.card_text div.card_arrow p {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}/*# sourceMappingURL=stories_style.css.map */
