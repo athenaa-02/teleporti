@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+$p-color: #ffffff;
+$pack-color: #f5f5f5;
+$mnthyr-color: #000000;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  section.first {
+    .card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 490px;
+      width: 100%;
+      .texts {
+        font-family: "DM Sans", sans-serif;
+        background-color: black;
+        color: $p-color;
+        width: 50%;
+        height: 490px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 173px 111px 173px 112px;
+        gap: 21px;
+        h2 {
+          font-size: 40px;
+          font-weight: 700;
+          letter-spacing: 4.17px;
+          line-height: 48px;
+        }
+        p {
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 25px;
+          letter-spacing: 0px;
+          opacity: 0.6;
+          width: 387px;
+        }
+      }
+      .image {
+        width: 50%;
+        height: 491px;
+      }
+    }
+  }
+  section.second {
+    .name {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 120px;
+      margin-bottom: 48px;
+      .mnth {
+        margin-right: 32px;
+        font-family: "DM Sans", sans-serif;
+        color: $mnthyr-color;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0px;
+      }
+      .yr {
+        margin-left: 32px;
+        font-family: "DM Sans", sans-serif;
+        color: $mnthyr-color;
+        opacity: 0.6;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0px;
+        line-height: 25px;
+      }
+    }
+    .packs {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 470px;
+      gap: 30px;
+    }
+    .pack {
+      width: 350px;
+      height: 407px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: $pack-color;
+    }
+  }
+}
