@@ -6,6 +6,7 @@ $mnthyr-color: #000000;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
 }
 main {
   section.first {
@@ -16,7 +17,6 @@ main {
       height: 490px;
       width: 100%;
       .texts {
-        font-family: "DM Sans", sans-serif;
         background-color: black;
         color: $p-color;
         width: 50%;
@@ -56,7 +56,6 @@ main {
       margin-bottom: 48px;
       .mnth {
         margin-right: 32px;
-        font-family: "DM Sans", sans-serif;
         color: $mnthyr-color;
         font-size: 18px;
         font-weight: 700;
@@ -65,7 +64,7 @@ main {
       }
       .yr {
         margin-left: 32px;
-        font-family: "DM Sans", sans-serif;
+
         color: $mnthyr-color;
         opacity: 0.6;
         font-size: 18px;
@@ -90,6 +89,123 @@ main {
       justify-content: center;
       align-items: center;
       background-color: $pack-color;
+      transition: all 500ms;
+
+      &:hover {
+        background-color: black;
+        height: 470px;
+      }
+
+      &:hover .btn {
+        background-color: white;
+        color: #000000;
+      }
+      &:hover h2 {
+        color: $p-color;
+      }
+      &:hover .inf {
+        color: $p-color;
+        opacity: 0.6;
+      }
+      &:hover .price {
+        color: $p-color;
+      }
+      &:hover span {
+        color: $p-color;
+        opacity: 0.6;
+      }
+      h2 {
+        color: $mnthyr-color;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 25px;
+      }
+      .inf {
+        color: $mnthyr-color;
+        opacity: 0.6;
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 400;
+        text-align: center;
+        padding: 0 40px;
+        margin: 18px 0 40px 0;
+      }
+      .price {
+        color: $mnthyr-color;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 4.17px;
+      }
+      span {
+        color: $mnthyr-color;
+        opacity: 0.6;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+      }
+      .btn {
+        width: 270px;
+        height: 40px;
+        background-color: $mnthyr-color;
+        color: $p-color;
+        border: none;
+        margin-top: 40px;
+      }
     }
+  }
+}
+section.third {
+  h3{
+    text-align: center;
+    margin-top: 160px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 4.17px;
+  }
+  .nms{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 2px;
+  }
+  .box {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 56px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  thead th {
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 20px;
+    border-bottom: 1px solid #000000;
+  }
+
+  .features {
+    text-align: left;
+  }
+
+  tbody td {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  tbody td:first-child {
+    text-align: left;
+  }
+
+  tbody td:not(:first-child) {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
   }
 }
