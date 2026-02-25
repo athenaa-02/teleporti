@@ -9,7 +9,8 @@ header {
   height: 72px;
   align-items: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 250px;
 }
 header div {
   display: flex;
@@ -54,16 +55,18 @@ header button {
 
 section.first {
   display: flex;
+  justify-content: center;
   width: 100%;
+  height: 650px;
 }
 section.first div {
   padding: 173px 112px;
-  width: 75%;
+  width: 610px;
   height: 650px;
   background-color: #000000;
 }
 section.first div h2 {
-  width: 387px;
+  width: 320px;
   height: 144px;
   font-weight: 700;
   font-size: 40px;
@@ -71,14 +74,155 @@ section.first div h2 {
   letter-spacing: 4.17px;
   color: #ffffff;
 }
+section.first div p {
+  margin-top: 21px;
+  width: 320px;
+  height: 75px;
+  opacity: 60%;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+section.first div span {
+  margin-top: 48px;
+  width: 180px;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+}
 section.first div span a {
   text-decoration: none;
+  color: #ffffff;
+  width: 136px;
+  height: 18px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 2px;
 }
 section.first div span img {
   width: 42px;
   height: 12px;
 }
 section.first img {
-  width: 125%;
+  width: 830px;
   height: 650px;
+}
+
+section.second {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+}
+section.second img {
+  width: 830px;
+  height: 600px;
+}
+section.second div {
+  padding: 135px 112px;
+  width: 610px;
+  height: 600px;
+}
+section.second div h2 {
+  width: 387px;
+  height: 144px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 4.17px;
+  color: #000000;
+}
+section.second div p {
+  margin-top: 21px;
+  opacity: 60%;
+  width: 387px;
+  height: 100px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #000000;
+}
+section.second div span {
+  margin-top: 48px;
+  width: 205px;
+  height: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section.second div span a {
+  width: 150px;
+  height: 16px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #000000;
+}
+section.second div span img {
+  width: 42px;
+  height: 12px;
+}
+
+section.therd {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+}
+section.therd img {
+  width: 830px;
+  height: 600px;
+}
+section.therd div {
+  padding: 160px 112px;
+  width: 610px;
+  height: 600px;
+}
+section.therd div h2 {
+  width: 387px;
+  height: 144px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 4.17px;
+  color: #000000;
+}
+section.therd div p {
+  margin-top: 21px;
+  opacity: 60%;
+  width: 387px;
+  height: 100px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #000000;
+}
+section.therd div span {
+  margin-top: 48px;
+  width: 205px;
+  height: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section.therd div span a {
+  width: 150px;
+  height: 16px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #000000;
+}
+section.therd div span img {
+  width: 42px;
+  height: 12px;
 }/*# sourceMappingURL=home.css.map */
