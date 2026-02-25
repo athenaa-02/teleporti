@@ -64,7 +64,12 @@ main section.first div.text div.arrow p {
   letter-spacing: 2px;
 }
 main section.first:hover {
-  background-image: url(./images/Bitmap\(2\).png);
+  background-image: url(./images/Bitmap\(1\).png);
+}
+main section.second {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1440px;
 }
 main section.second div.card {
   width: 360px;

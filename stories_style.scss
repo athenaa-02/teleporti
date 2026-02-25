@@ -73,10 +73,14 @@ main {
     }
   }
   section.first:hover {
-    background-image: url(./images/Bitmap\(2\).png);
+    background-image: url(./images/Bitmap\(1\).png);
   }
 
   section.second {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1440px;
+    
     div.card {
       width: 360px;
       position: relative;
